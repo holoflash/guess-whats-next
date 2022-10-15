@@ -12,8 +12,8 @@ function updateHighScore() {
     highScorePara.textContent = "high score: " + highScore;
 }
 function displayComputerChoice() {
-    const computerChoicePara = document.getElementById("computer");
-    computerChoicePara.textContent = "computer says: " + computer;
+    const computerChoicePara = document.getElementById("computerSays");
+    computerChoicePara.textContent = computer;
 }
 
 buttons.forEach((button,) => {
