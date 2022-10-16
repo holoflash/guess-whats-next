@@ -41,7 +41,5 @@ buttons.forEach((button,) => {
             currentScore = 0;
             updateScore();
         }
-        console.log(button.id);
-        console.log(computer);
     });
 });
